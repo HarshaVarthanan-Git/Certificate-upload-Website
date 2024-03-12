@@ -1,0 +1,39 @@
+# Certificate Upload Website
+
+This is a simple web application for uploading certificates with user authentication and batch-wise storage. The purpose of creating this website is to help college teachers manage their certificates easily.
+
+## Features
+
+- User authentication: Users can register and log in with their credentials.
+- Certificate upload: Users can upload certificates, which are stored in batch-wise folders.
+- Batch selection: Users can select their batch from a dropdown menu when uploading certificates.
+
+## Technologies Used
+
+- HTML/CSS: Frontend design and layout.
+- PHP: Backend server-side scripting for handling form submissions and file uploads.
+- MySQL: Database management system for storing user information and certificates.
+- XAMPP: Local development environment for testing.
+
+## Setup
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/certificate-upload-website.git
+
+
+1)Import the SQL file (database.sql) into your MySQL database to set up the required tables.
+
+2)Configure your database connection details in backend.php.
+
+3)Place the project files in your web server directory (e.g., htdocs for XAMPP).
+
+4)Access the website through your web browser.
+
+Usage:
+Register/Login: Users can register for a new account or log in with existing credentials.
+Certificate Upload: After logging in, users can upload certificates by providing necessary details including their batch.
+
+Contributing:
+Contributions are welcome! Please fork the repository and create a pull request for any changes or improvements.
